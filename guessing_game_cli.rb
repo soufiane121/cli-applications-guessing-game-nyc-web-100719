@@ -2,7 +2,7 @@
 def run_guessing_game
   random_num = rand(1..6).to_s
   puts random_num
-leave = gets.chomp 
+leave = gets.chomp
 #binding.pry
 if leave == "exit"
   puts "Goodbye!"
