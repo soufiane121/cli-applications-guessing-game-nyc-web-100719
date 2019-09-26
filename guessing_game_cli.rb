@@ -5,10 +5,10 @@ def run_guessing_game
 leave = gets.chomp 
 #binding.pry
 if leave == "exit"
-  return "Goodbye!"
+  puts "Goodbye!"
 elsif leave != random_num && leave != "exit"
-  return "Sorry! The computer guessed 6."
+  puts "Sorry! The computer guessed 6."
 elsif leave  == random_num
-  return "You guessed the correct number!"
+  puts "You guessed the correct number!"
 end
 end
